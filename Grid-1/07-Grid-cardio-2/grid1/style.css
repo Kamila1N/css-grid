@@ -21,3 +21,16 @@
 
 /* ---------------------------------------------------- */
 /* ZDE NAPIŠ VLASTNÍ CSS */
+.kontejner{
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.prvni {
+    grid-column: 3;
+}
+
+.treti{
+    grid-column: 4;
+}
