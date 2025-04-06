@@ -17,3 +17,16 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner{
+	display: grid;
+	grid-template-columns: [page-start]200px [main-start] 1fr [main-end]150px[page-end];
+	grid-template-rows: 200px auto 100px;
+
+}
+
+.hlavicka{
+	grid-column: page;
+}
+.paticka{
+	grid-column: page;
+}

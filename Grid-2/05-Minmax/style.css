@@ -8,3 +8,42 @@ body {
 
 /* ---------------------------------------------------- */
 
+img {
+width: 100%;
+}
+figure {
+	margin: 0;
+	background: #FFFFFF;
+	border-radius: 4px;
+	padding: 5px;
+	box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.2);
+}
+figcaption {
+	padding: 5px 0;
+	text-align: center;
+}
+
+.galerie{
+	display: grid;
+	grid-template-columns: repeat(5 , minmax(100px, 200px));
+	gap: 20px;
+}
+
+figure:nth-child(7n+1) {
+	transform: rotate(3deg);
+}
+figure:nth-child(7n+2) {
+	transform: rotate(-1deg);
+}
+figure:nth-child(7n+3) {
+	transform: rotate(-3deg);
+}
+figure:nth-child(7n+4) {
+	transform: rotate(1deg);
+}
+figure:nth-child(7n+5) {
+	transform: rotate(-2deg);
+}
+figure:nth-child(7n+6) {
+	transform: rotate(0deg);
+}
